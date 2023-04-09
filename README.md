@@ -13,7 +13,7 @@ This notebook will guide you through the transcription of a Youtube video using 
 
 # **Check GPU type** 🕵️
 
-The type of GPU you get assigned in your Colab session defined the speed at which the video will be transcribe.
+The type of GPU you get assigned in your Colab session defined the speed at which the video will be transcribed.
 The higher the number of floating point operations per second (FLOPS), the faster the transcription.
 But even the least powerful GPU available in Colab is able to run any Whisper model.
 Make sure you've selected `GPU` as hardware accelerator for the Notebook (Runtime &rarr; Change runtime type &rarr; Hardware accelerator).
@@ -133,7 +133,7 @@ As of the first public release, there are 4 pre-trained options to play with:
 
 # **Video selection** 📺
 
-Enter the URL of the Youtube video you want to transcribe, wether you want to save the audio file in your Google Drive, and run the cell.
+Enter the URL of the Youtube video you want to transcribe, whether you want to save the audio file in your Google Drive, and run the cell.
 
 ---
 
@@ -146,7 +146,7 @@ Enter the URL of the Youtube video you want to transcribe, wether you want to sa
 
 # **Run the model** 🚀
 
-Run this cell to execute the transcription of the video. This can take a while and very based on the length of the video and the number of parameters of the model selected above.
+Run this cell to execute the transcription of the video. This can take a while and is very much based on the length of the video and the number of parameters of the model selected above.
 
 ---
 
